@@ -1,0 +1,86 @@
+		mysql
+
+mysql基础
+安装nysql
+配置mysql
+使用mysql
+
+
+1、1oracle公司的产品
+开源的关系型数据库管理系统（数据，用户，权限）
+社区版和企业版（使用社区版）
+
+
+2.安装mysql
+1.windows系统(官网下载MSI文件)
+	MSI安装（Windowus Installer）(安装过程会有一写东四要讲，可以到时候和我一起安装)
+2.linux系统
+ubuntu：
+centos：
+
+
+3.mysql服务的启动和停止：
+	net start mysql启动
+	net stop mysql 停止
+	
+	
+4.使用mysql
+
+
+mysql目录结构
+bin：可执行文件
+data：数据
+docs 文档
+include头文件
+lib库文件
+share：
+
+
+
+mysql登陆退出
+
+
+mysql 常用参数
+
+
+-D   打开指定数据库
+
+-V    输出版本信
+
+-u --user=name 用户名
+
+-p（小写） --password 密码
+
+-P（大写）端口
+
+-h 服务器名称
+
+-- prompt 修改提示符
+
+
+mysql退出
+exit;
+quit;
+\q
+
+5.mysq语句规范
+
+关键字和函数名全部大写
+数据库名称，表名。字段名全部小写
+sql语句必须以封号结束
+
+
+6.sql（重点（增删查改，联合查询，））
+
+
+7，举例讲解
+
+
+
+
+
+
+
+
+
+
